@@ -7,8 +7,8 @@ function App() {
         setItems = _React$useState2[1];
 
     React.useEffect(function () {
-        fetch("https://localhost:7169/api/travels", {
-            //fetch("http://fejlesztooldal.runasp.net/api/travels",{
+        //fetch("https://localhost:7169/api/travels", {
+            fetch("http://fejlesztooldal.runasp.net/api/travels",{
             method: "GET",
             headers: {
                 "token": "dzAAeYvO*HUbppD7jh9Sc",
